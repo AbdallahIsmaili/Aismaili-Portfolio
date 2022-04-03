@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    background: rgb(29, 29, 29);
+}
+header{
+    width: 95%;
+    height: 10vh;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+#sound{
+    padding: 7px;
+    background-color: #1b1b1b;
+    border-radius:5px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.sound-cloud{
+    font-size: 1.2rem;
+    margin: 7px;
+    color: #f50057;
+}
+
+.on-off{
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+#off{
+    color:#f50057
+}
+
+#on{
+    display: none;
+    color: #08fdd8;
+}
+.btns-container .fas{
+    font-size: 2rem;
+    padding: 10px;
+    background-color: #181818;
+    color: #fff;
+    cursor: pointer;
+}
+
+
