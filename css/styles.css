@@ -74,7 +74,7 @@ header{
     position: fixed;
     top: 0;
     left: 0;
-    /* overflow: hidden; */
+    overflow: hidden;
     z-index: 1;
 }
 
@@ -166,6 +166,93 @@ header{
 
 /* Nav Bar Ends Here */
 
+#section-home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-left: 1.5rem;
+}
+
+.text-zone h1{
+    font-size:3.2rem;
+    line-height: 50px;
+    letter-spacing: -3px;
+}
+
+.text-zone img{
+    width: 47px;
+    height: 62px;
+    margin-bottom: -5px;
+}
+
+/* Typing Text Animation Here */
+.text-zone .gray-text{
+    margin-top: 30px;
+    color: #a2a2a3;
+    letter-spacing: 3px;
+    font-size: 14px;
+    position: relative;
+}
+
+/* Contact Me Button */
+
+.contact-button{
+    margin-top: 50px 0 0;
+    text-decoration: none;
+    width: 100%;
+    max-width: 200px;
+    height: 40px;
+    display: block;
+    line-height: 40px;
+    letter-spacing: 3px;
+    position: relative;
+    text-align: center;
+    color: #08fdd8;
+}
+
+.contact-button div{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+}
+
+.contact-button span.bg{
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    left: -5px;
+    top: 0;
+    transition: all .3s ease-in-out;
+    background-color: #08fdd8;
+    transform: skewX(-19deg);
+}
+
+.contact-button:hover span.bg{
+    width: 110%;
+}
+
+.contact-button span.base{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    border: 1px solid #08fdd8;
+    box-sizing: border-box;
+}
+
+.contact-button span.text{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.contact-button:hover span.text{
+    color: #1d1d1d;
+}
 
 
 
