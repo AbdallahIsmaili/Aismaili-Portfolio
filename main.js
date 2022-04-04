@@ -3,6 +3,10 @@ const off = document.querySelector('#off');
 const on = document.querySelector('#on');
 const myAudio = document.querySelector('#myAudio');
 const text = document.querySelector(".sec-text");
+const elements = document.getElementsByClassName('alpha');
+const elements2 = document.getElementsByClassName('blast');
+const elements3 = document.getElementsByClassName('blast1');
+
 
 off.addEventListener('click', () => soundTrack('off'));
 on.addEventListener('click', () => soundTrack('on'));
@@ -49,15 +53,52 @@ const textLoad = () => {
         text.textContent = "full-stack developer. ";
     }, 0);
     setTimeout(() => {
-        text.textContent = "programmer. ";
+        text.textContent = "front-end developer. ";
     }, 4000);
     setTimeout(() => {
+        text.textContent = "back-end developer. ";
+    }, 8000);
+    setTimeout(() => {
+        text.textContent = "programmer. ";
+    }, 12000);
+    setTimeout(() => {
         text.textContent = "coder. ";
-    }, 8000); //1s = 1000 milliseconds
+    }, 16000); //1s = 1000 milliseconds
 }
 
 textLoad();
-setInterval(textLoad, 12000);
+setInterval(textLoad, 20000);
+
+for (let i = 0; i<=elements2.length; i++)
+{
+    elements3[i].addEventListener('animationend',function(e){
+        elements3[i].classList.remove('animated');
+    });
+
+    elements3[i].addEventListener('mouseover',function(e){
+        elements3[i].classList.add('animated')
+    });
+
+    elements[i].addEventListener('animationend',function(e){
+        elements[i].classList.remove('animated');
+    });
+
+    elements[i].addEventListener('mouseover',function(e){
+        elements[i].classList.add('animated')
+    });
+    
+    elements2[i].addEventListener('animationend',function(e){
+        elements2[i].classList.remove('animated');
+    });
+
+    elements2[i].addEventListener('mouseover',function(e){
+        elements2[i].classList.add('animated')
+    });
+
+
+    
+}
+
 
 
 
