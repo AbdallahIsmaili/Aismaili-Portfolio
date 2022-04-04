@@ -320,9 +320,43 @@ header{
     margin-left: 10px;
 }
 
+#section-work{
+    padding: 5rem 0 5rem 1.5rem;
+    position: relative;
+}
+
+#header{
+    font-size: 2rem;
+    color: #08fdd8;
+    margin-bottom: 30px;
+}
+
+.text-zone-2 p{
+    line-height: 1.5;
+}
+
+.fake-big-2{
+    font-size: 12rem;
+    font-weight: 700;
+    position: absolute;
+    color: #2d2d2e;
+    left: 10px;
+    bottom: -70px;
+    letter-spacing:-10px;
+    z-index: -999;
+}
+
+.fake-magicwall{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.fake-magicwall ul{
+    
+}
+
 /* Media Section For Bigger Screens */
 
-@media screen and (min-width: 950px) {
+@media screen and (min-width: 1200px) {
     header{
         justify-content: flex-end;
     }
@@ -362,7 +396,10 @@ header{
         letter-spacing: -6px;
     }
     .text-zone img{
-        width: 50px;
+        width: 90px;
+        height: 107px;
+        margin-bottom: -8px;
+        margin-right: -7px;
     }
     .text-zone .gray-text{
         font-size: 1rem;
