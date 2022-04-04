@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dongle:wght@400;700&family=Luxurious+Roman&family=Merriweather:wght@400;700&family=Moon+Dance&family=Neonderthaw&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,600&family=Roboto+Mono:wght@400;500;600;700&family=Roboto:wght@900&family=Source+Code+Pro:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=Titillium+Web:wght@400;600;700&display=swap');
+
 
 ::before,
 ::after{
@@ -9,9 +11,10 @@
 }
 
 body{
-    font-family: sans-serif;
+    font-family: "Poppins", sans-serif;
     color: rgb(255, 255, 255);
     background: rgb(29, 29, 29);
+    overflow-x: hidden;
 }
 
 header{
@@ -223,6 +226,58 @@ header{
     position: relative;
 }
 
+.typingContainer .text{
+    position: relative;
+    color: #a2a2a3;
+}
+.typingContainer .text.first-text{
+    color: #a2a2a3;
+}
+
+.text.sec-text:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(29, 29, 29);
+    border-left: 2px solid #a2a2a3;
+    animation: animate 4s steps(14) infinite;
+}
+@keyframes animate{
+    40%, 60%{
+        left: calc(100% + 4px);
+    }
+    100%{
+        left: 0%;
+    }
+}
+
+
+.text-zone .gray-text::before{
+    content: "<p>";
+    position: absolute;
+    top: -40px;
+    left: -10px;
+    font-size: 1.2rem;
+    font-family: "La Belle Aurore", cursive;
+    color: #666565;
+    letter-spacing: 3px;
+}
+
+.text-zone .gray-text::after{
+    content: "</p>";
+    position: absolute;
+    bottom: -40px;
+    left: 9px;
+    top: 12px;
+    font-size: 1.2rem;
+    font-family: "La Belle Aurore", cursive;
+    color: #666565;
+    letter-spacing: 3px;
+}
+
 /* Contact Me Button */
 
 .contact-button{
@@ -331,8 +386,58 @@ header{
     margin-bottom: 30px;
 }
 
+#header::before{
+    content: "<div>";
+    position: absolute;
+    top: 95px;
+    left: 7px;
+    font-size: 1.2rem;
+    font-family: "La Belle Aurore", cursive;
+    color: #666565;
+    letter-spacing: 3px;
+}
+
+#header::after{
+    content: "</div>";
+    position: absolute;
+    bottom: -10px;
+    right: 0px;
+    font-size: 1.2rem;
+    font-family: "La Belle Aurore", cursive;
+    color: #666565;
+    letter-spacing: 3px;
+}
+
+.text-zone-2 p::before{
+    content: "<p>";
+    position: absolute;
+    top: 200px;
+    left: 7px;
+    font-size: 1.2rem;
+    font-family: "La Belle Aurore", cursive;
+    color: #666565;
+    letter-spacing: 3px;
+}
+
+.text-zone-2 p::after{
+    content: "</p>";
+    position: absolute;
+    bottom: 110px;
+    right: 50px;
+    font-size: 1.2rem;
+    font-family: "La Belle Aurore", cursive;
+    color: #666565;
+    letter-spacing: 3px;
+}
+
 .text-zone-2 p{
     line-height: 1.5;
+}
+
+#hireLink{
+    text-decoration: underline;
+    color: #08fdd8;
+    font-size: 1.2rem;
 }
 
 .fake-big-2{
@@ -445,7 +550,7 @@ header{
         padding-left: 13rem;
     }
     .text-zone h1{
-        font-size: 6.3rem;
+        font-size: 5.7rem;
         line-height: 85px;
         letter-spacing: -6px;
     }
@@ -488,10 +593,33 @@ header{
         font-size: 14px;
         line-height: 1.5rem;
     }
+
+    .text-zone-2 p::before{
+        content: "<p>";
+        position: absolute;
+        top: 290px;
+        left: 7px;
+        font-size: 1.2rem;
+        font-family: "La Belle Aurore", cursive;
+        color: #666565;
+        letter-spacing: 3px;
+    }
+    
+    .text-zone-2 p::after{
+        content: "</p>";
+        position: absolute;
+        bottom: 75px;
+        right: 650px;
+        font-size: 1.2rem;
+        font-family: "La Belle Aurore", cursive;
+        color: #666565;
+        letter-spacing: 3px;
+    }
+
     .fake-big-2{
-        font-size: 25rem;
+        font-size: 22rem;
         font-weight: 700;
-        left: 560px;
+        left: 485px;
         top: 0;
     }
     .fake-magicwall{

@@ -2,6 +2,7 @@ const soundCloud = document.querySelector('.sound-cloud');
 const off = document.querySelector('#off');
 const on = document.querySelector('#on');
 const myAudio = document.querySelector('#myAudio');
+const text = document.querySelector(".sec-text");
 
 off.addEventListener('click', () => soundTrack('off'));
 on.addEventListener('click', () => soundTrack('on'));
@@ -43,7 +44,20 @@ const myFanc = (navCondition) => {
     }
 }
 
+const textLoad = () => {
+    setTimeout(() => {
+        text.textContent = "full-stack developer. ";
+    }, 0);
+    setTimeout(() => {
+        text.textContent = "programmer. ";
+    }, 4000);
+    setTimeout(() => {
+        text.textContent = "coder. ";
+    }, 8000); //1s = 1000 milliseconds
+}
 
+textLoad();
+setInterval(textLoad, 12000);
 
 
 
