@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dongle:wght@400;700&family=Luxurious+Roman&family=Merriweather:wght@400;700&family=Moon+Dance&family=Neonderthaw&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,600&family=Roboto+Mono:wght@400;500;600;700&family=Roboto:wght@900&family=Source+Code+Pro:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=Titillium+Web:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dongle:wght@400;700&family=Lobster&family=Luxurious+Roman&family=Merriweather:wght@400;700&family=Moon+Dance&family=Neonderthaw&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,600&family=Roboto+Mono:wght@400;500;600;700&family=Roboto:wght@900&family=Source+Code+Pro:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=Titillium+Web:wght@400;600;700&display=swap');
 
 @font-face {
     font-family: 'Helvetica Neue';
@@ -735,20 +735,65 @@ header{
     color: #08fdd8;
 }
 
+/* blog section starts here */
 
+.section-blog{
+    width: 85%;
+    margin: 100px auto 0;
+    position: relative;
+}
+.section-blog .fake-big-2{
+    font-size: 12rem;
+    font-weight: bolder;
+    position: absolute;
+    top: -180px;
+    left: 0;
+    
+}
 
+.blog-articles{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.post-articles{
+    width: 100%;
+    height: 220px;
+    background-color: #1d1d1d;
+    padding: 25px;
+    color: #909096;
+    box-shadow: 0 0  5px 5px #191919;
+    margin-bottom: 30px;
+}
+.post-date{
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.blog-post-title h5 a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    margin: 15px 0;
+}
+.blog-post-title h5 a:hover{
+    color: #06b99e;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.text-zone .fake-big-2{
+    font-size: 30rem;
+    font-weight: 500;
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    color: #2d2d2e;
+    left: 190px;
+    bottom: 150px;
+    letter-spacing:-10px;
+    z-index: -999;
+    opacity: 0.3;
+}
 
 
 
@@ -909,6 +954,37 @@ header{
     }
     .skills-charts{
         margin-right: 8%;
+    }
+
+    /* media query for blog section */
+    .section-blog{
+        width: 90%;
+        margin: 100px auto 0;
+    }
+    .section-blog .fake-big-2{
+        font-size: 28rem;
+        top: -380px;
+    }
+    .blog-articles{
+        width: 90%;
+        margin: 0 0 0 auto;
+        flex-flow: row wrap;
+    }
+    .post-articles{
+        width: 340px;
+        height: 270px;
+    }
+    .blog-post-title h5 a{
+        font-size: 1.7rem;
+        line-height: 2rem;
+    }
+
+    /* hero character */
+    .text-zone .fake-big-2{
+        font-size: 45rem;
+        left: 820px;
+        top: -115px;
+        opacity: 0.4;
     }
 }
 
