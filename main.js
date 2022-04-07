@@ -7,6 +7,7 @@ const elements = document.getElementsByClassName('alpha');
 const elements2 = document.getElementsByClassName('blast');
 const elements3 = document.getElementsByClassName('blast1');
 const elements4 = document.getElementsByClassName('blast2');
+const elements5 = document.getElementsByClassName('blast3');
 var body = document.body;
 
 $(document).ready(function (){
@@ -114,6 +115,14 @@ for (let i = 0; i<=elements2.length; i++)
 
     elements4[i].addEventListener('mouseover',function(e){
         elements4[i].classList.add('animated')
+    });
+
+    elements5[i].addEventListener('animationend',function(e){
+        elements5[i].classList.remove('animated');
+    });
+
+    elements5[i].addEventListener('mouseover',function(e){
+        elements5[i].classList.add('animated')
     });
 
     elements[i].addEventListener('animationend',function(e){

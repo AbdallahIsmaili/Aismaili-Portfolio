@@ -33,16 +33,23 @@
 }
 
 ::selection{
-    background: cyan;
-    color: blue;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;          /* Likely future */ 
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 body{
     font-family: "Poppins", sans-serif;
     color: rgb(255, 255, 255);
-    background: #1D1D1D;
+    /* background: black; */
+    background: black;
     overflow-x: hidden;
-    scroll-behavior: smooth;
 }
 
 header{
@@ -117,7 +124,7 @@ header{
     top: 0;
     left: 0;
     overflow: hidden;
-    background-color: #191919;
+    background-color: #000;
     z-index: 1;
 }
 
@@ -272,7 +279,7 @@ header{
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: #1D1D1D;
+    background-color: black;
     border-left: 2px solid #a2a2a3;
     animation: animate 4s steps(14) infinite;
 }
@@ -366,7 +373,7 @@ header{
 }
 
 .contact-button:hover span.text{
-    color: #1d1d1d;
+    color: black;
 }
 
 .scroll-down{
@@ -632,12 +639,12 @@ header{
 }
 
 .blast-root .blast.animated{
-    color: cyan;
+    color: yellow;
     animation: ani 0.3s ease-in-out ;
   }
 
 #header .blast-root .blast1.animated{
-    color: skyblue;
+    color: blue;
     animation: ani .3s ease-in-out ;
 }
   
@@ -757,10 +764,35 @@ header{
     align-items: center;
     flex-direction: column;
 }
+
+.blog-articles::before{
+    content: "<article>";
+    position: absolute;
+    top: -40px;
+    left: 10px;
+    font-size: 1.2rem;
+    font-family: "La Belle Aurore", cursive;
+    color: #666565;
+    letter-spacing: 3px;
+    z-index: 3;
+}
+
+.blog-articles::after{
+    content: "</article>";
+    position: absolute;
+    bottom: -20px;
+    left: 10px;
+    font-size: 1.2rem;
+    font-family: "La Belle Aurore", cursive;
+    color: #666565;
+    letter-spacing: 3px;
+    z-index: 3;
+}
+
 .post-articles{
     width: 100%;
     height: 220px;
-    background-color: #1d1d1d;
+    background-color: black;
     padding: 25px;
     color: #909096;
     box-shadow: 0 0  5px 5px #191919;
@@ -772,7 +804,9 @@ header{
     text-transform: uppercase;
 }
 .blog-post-title h5 a{
+    font-family: "Coolvetica", sans-serif;
     font-size: 1.5rem;
+    letter-spacing: 3px;
     text-decoration: none;
     color: #fff;
     display: block;
@@ -796,22 +830,228 @@ header{
 }
 
 
+/* contact start here */
 
+.contact-in{
+    font-family: "Coolvetica", sans-serif;
+    width: 80%;
+    height: auto;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 10px;
+    background: black;
+    /* box-shadow: 0 0 10px 0px #666; */
+}
 
+.contact-in .contact-form #header h2{
+    margin-bottom: -100px;
+}
 
+#contact-paragraph{
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
 
+.contact-map{
+    width: 100%;
+    height: auto;
+    margin-top: 90px;
+    height: 520px;
+    /* flex: 50%; */
+}
 
+.contact-map iframe{
+    width: 100%;
+    height: 100%;
+}
 
+.contact-form{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    /* flex: 50%; */
+}
 
+.contact-form-txt{
+    font-family: "Coolvetica", sans-serif;
+    width: 100%;
+    height: 40px;
+    background-color: #2b2b2b ;
+    color: #08fdd8;
+    letter-spacing: 2px;
+    font-size: 17px;
+    border: 1px solid #2d2d2e;
+    border-radius: 3px;
+    outline: none;
+    padding: 10px;
+    margin-bottom: 20px;
+}
 
+.contact-form-textarea{
+    font-family: "Coolvetica", sans-serif;
+    width: 100%;
+    height: 110px;
+    color: #08fdd8;
+    letter-spacing: 2px;
+    font-size: 17px;
+    background-color: #2b2b2b ;
+    border: 1px solid #2d2d2e;
+    border-radius: 3px;
+    outline: none;
+    padding: 10px;
+    margin-bottom: 20px;
+}
 
+.text-zone3 #header h2::before{
+    content: "<h2>";
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 1.2rem;
+    font-family: "La Belle Aurore", cursive;
+    color: #666565;
+    letter-spacing: 3px;
+    z-index: 3;
+}
 
+.text-zone3 #header h2::after{
+    content: "</h2>";
+    position: absolute;
+    bottom: 840px;
+    left: 10px;
+    font-size: 1.2rem;
+    font-family: "La Belle Aurore", cursive;
+    color: #666565;
+    letter-spacing: 3px;
+    z-index: 3;
+}
+
+.contact-form #header h2::before{
+    content: "<form>";
+    position: absolute;
+    top: 6110px;
+    left: 60px;
+    font-size: 1.2rem;
+    font-family: "La Belle Aurore", cursive;
+    color: #666565;
+    letter-spacing: 3px;
+    z-index: 3;
+}
+
+.contact-form #header h2::after{
+    content: "</form>";
+    position: absolute;
+    bottom: -7070px;
+    left: 60px;
+    font-size: 1.2rem;
+    font-family: "La Belle Aurore", cursive;
+    color: #666565;
+    letter-spacing: 3px;
+    z-index: 3;
+}
+
+.contact-form p::before{
+    content: "<h2>";
+    position: absolute;
+    bottom: -5550px;
+    left: 100px;
+    font-size: 1.2rem;
+    font-family: "La Belle Aurore", cursive;
+    color: #666565;
+    letter-spacing: 3px;
+    z-index: 3;
+}
+
+.contact-form p::after{
+    content: "</h2>";
+    position: absolute;
+    bottom: -5670px;
+    left:190px;
+    font-size: 1.2rem;
+    font-family: "La Belle Aurore", cursive;
+    color: #666565;
+    letter-spacing: 3px;
+    z-index: 3;
+}
+
+.contact-map::before{
+    content: "</body>";
+    position: absolute;
+    bottom: -7200px;
+    left: 50px;
+    font-size: 1.2rem;
+    font-family: "La Belle Aurore", cursive;
+    color: #666565;
+    letter-spacing: 3px;
+    z-index: 3;
+}
+
+.contact-map::after{
+    content: "</html>";
+    position: absolute;
+    bottom: -7230px;
+    left:25px;
+    font-size: 1.2rem;
+    font-family: "La Belle Aurore", cursive;
+    color: #666565;
+    letter-spacing: 3px;
+    z-index: 3;
+}
+
+#section-contact .fake-big-2{
+    font-size: 20rem;
+    font-weight: 500;
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    color: #2d2d2e;
+    left: 640px;
+    top: 225rem;
+    letter-spacing:-10px;
+    z-index: -999;
+    opacity: 1;
+}
+
+#magic-wall{
+    margin-left: 130px;
+    font-size: 13px;
+    opacity: .7;
+}
+
+.input-submit input{
+    cursor: pointer;
+    margin-top: 50px 0 0;
+    text-decoration: none;
+    width: 100%;
+    max-width: 260px;
+    height: 55px;
+    display: block;
+    line-height: 40px;
+    letter-spacing: 3px;
+    position: relative;
+    text-align: center;
+    font-weight: 500;
+    font-family: "Coolvetica", sans-serif;
+    border: 3px solid #08fdd8;
+    color: #08fdd8;
+    background: black;
+    top: 30px;
+}
+
+.input-submit input:hover{
+    transition: all .5s ease-in-out;
+    background-color: #08fdd8;
+    color: #000;
+}
 
 
 
 /* Media Section For Bigger Screens */
 
-@media screen and (min-width: 950px) {
+@media screen and (min-width: 1200px) {
     header{
         justify-content: flex-end;
     }
@@ -970,6 +1210,14 @@ header{
         margin: 0 0 0 auto;
         flex-flow: row wrap;
     }
+    .blog-articles::before{
+        bottom: -20px;
+        left: 120px;
+    }
+    .blog-articles::after{
+        bottom: -20px;
+        left: 120px;
+    }
     .post-articles{
         width: 340px;
         height: 270px;
@@ -985,6 +1233,69 @@ header{
         left: 820px;
         top: -115px;
         opacity: 0.4;
+    }
+
+    /* contact form */
+    .contact-in{
+        margin-left: 210px;
+    }
+    .contact-in .contact-form #header h2{
+        margin-bottom: -40px;
+    }
+    .contact-map{
+        flex: 50%;
+        height: 690px;
+        margin-top: 150px;
+    }
+    #contact-paragraph{
+        width: 90%;
+    }
+    .contact-form-txt,
+    .contact-form-textarea{
+        width: 80%;
+    }
+    
+    .contact-form{
+        flex: 50%;
+    }
+
+    /* Styling */
+
+    .text-zone3 #header h2::before{
+        top: 10px;
+        left: 200px;
+    }
+    
+    .text-zone3 #header h2::after{
+        bottom: 410px;
+        left: 200px;
+    }
+    .contact-form #header h2::before{
+        top: 3810px;
+        left: 180px;
+    }
+    
+    .contact-form #header h2::after{
+        bottom: -4130px;
+        left: 200px;
+    }
+    .contact-form p::before{
+        bottom: -3190px;
+        left: 200px;
+    }
+    
+    .contact-form p::after{
+        bottom: -3340px;
+        left:340px;
+    }
+    .contact-map::before{
+        bottom: -4200px;
+        left: 175px;
+    }
+    
+    .contact-map::after{
+        bottom: -4230px;
+        left:165px;
     }
 }
 
