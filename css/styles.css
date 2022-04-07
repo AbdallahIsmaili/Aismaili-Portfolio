@@ -31,7 +31,18 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+::-webkit-scrollbar {
+    width: 11px;
+    background: #212121;
+  }
+  ::-webkit-scrollbar-thumb {
+    width: 100%;
+    background: #38393f;
+    border-radius: 2rem;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: blue;
+  }
 ::selection{
     -webkit-user-select: none;
     -khtml-user-select: none;
