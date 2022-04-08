@@ -1059,10 +1059,11 @@ header{
 }
 
 
+/* Make the website responsive */
 
 /* Media Section For Bigger Screens */
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1140px) {
     header{
         justify-content: flex-end;
     }
@@ -1307,6 +1308,446 @@ header{
     .contact-map::after{
         bottom: -4230px;
         left:165px;
+    }
+}
+
+/* Media Section For Big Screens */
+
+@media screen and (max-width: 960px) {
+    #sound::before {
+        top: 170px;
+        font-size: 1.7rem;
+    }
+    .text-zone::before {
+        top: 204px;
+        font-size: 1.7rem;
+    }
+    .text-zone h1 {
+        font-size: 85px;
+        letter-spacing: -7px;
+        margin-top: -201px;
+    }
+    .text-zone h1::before {
+        top: 430px;
+        font-size: 1.6rem;
+    }
+    .text-zone img {
+        width: 80px;
+        height: 95px;
+    }
+    .text-zone h1::after {
+        bottom: 543px;
+        font-size: 1.6rem;
+    }
+    .text-zone .gray-text {
+        top: 121px;
+        font-size: 23px;
+    }
+    .text-zone .fake-big-2 {
+        font-size: 47rem;
+        font-weight: 600;
+        left: 327px;
+        bottom: 339px;
+    }
+    .text-zone .gray-text::before, 
+    .text-zone .gray-text::after {
+        font-size: 1.6rem;
+    }
+    .contact-button {
+        max-width: 326px;
+        height: 63px;
+        top: 260px;
+    }
+    #header::before,
+    #header::after {
+        font-size: 1.6rem;
+    }
+    #header .blast-root {
+        font-size: 85px;
+    }
+    .text-zone-2 p::before,
+    .text-zone-2 p::after {
+        font-size: 1.6rem;
+    }
+    .text-zone-2 p {
+        font-size: 23px;
+    }
+    .hireLink {
+        font-size: 1.7rem;
+    }
+    .fake-big-2 {
+        font-size: 17rem;
+        left: 71px;
+        bottom: -132px;
+    }
+    #magic-wall {
+        margin-left: 2px;
+        font-size: 19px;
+        text-align: center;
+    }
+    .fake-magicwall ul li {
+        width: 283px;
+        height: 236px;
+    }
+    #box {
+        margin: 1rem 1.6rem;
+    }
+    #box::before,
+    #box::after {
+        font-size: 1.6rem;
+    }
+    #section-about {
+        margin-top: 220px;
+    }
+    #header::before {
+        top: -6px;
+        font-size: 1.6rem;
+    }
+    .text-zone3 #header h2::before {
+        top: 15px;
+        left: 46px;
+        font-size: 1.6rem;
+    }
+    .text-zone3 #header h2::after {
+        bottom: 960px;
+        left: 124px;
+        font-size: 1.6rem;
+    }
+    .text-zone3 p {
+        line-height: 2rem;
+        font-size: 23px;
+    }
+    .skills-charts{
+        padding-top: 3rem;
+    }
+    .section-blog {
+        margin: 180px auto 0;
+    }
+    .section-blog .fake-big-2 {
+        font-size: 16rem;
+        top: -326px;
+    }
+    .blog-articles::before,
+    .blog-articles::after {
+        font-size: 1.7rem;
+    }
+    .post-date {
+        font-size: 20px;
+    }
+    .blog-post-title h5 a {
+        font-size: 2.3rem;
+    }
+    .blog-post-content{
+        font-size: 20px;
+    }
+    .contact-in {
+        margin: 156px auto;
+    }
+    #section-contact .fake-big-2 {
+        font-size: 17rem;
+        font-weight: 600;
+        left: 135px;
+        top: 465rem;
+    }
+    .contact-form #header h2{
+        font-size: 100px;
+    }
+    .contact-form #header::before {
+        content: '<map>';
+        top: 7692px;
+        left: 110px;
+        font-size: 1.6rem;
+    }
+    .contact-form #header::after {
+        content: "</map>";
+        left: 699px;
+        bottom: -8025px;
+        font-size: 1.6rem;
+    }
+    #contact-paragraph {
+        font-size: 23px;
+    }
+    .input-submit input {
+        max-width: 379px;
+        height: 77px;
+        font-size: 23px;
+        top: 48px;
+    }
+    .contact-map {
+        margin-top: 122px;
+        margin-bottom: 140px;
+        height: 614px;
+    }
+    .contact-map::before {
+        bottom: -8093px;
+        font-size: 1.6rem;
+    }
+    .contact-map::after {
+        bottom: -8137px;
+        font-size: 1.6rem;
+    }
+    .contact-form p::before {
+        bottom: -6435px;
+        left: 74px;
+        font-size: 1.6rem;
+    }
+    .contact-form p::after {
+        bottom: -6547px;
+        left: 606px;
+        font-size: 1.6rem;
+    }
+    .contact-form #header h2::before {
+        top: 7591px;
+        font-size: 1.6rem;
+    }
+    .contact-form #header h2::after {
+        bottom: -8066px;
+        left: 93px;
+        font-size: 1.6rem;
+    }
+    .logo-section {
+        min-height: 43vh;
+    }
+    .logo-section .logo img {
+        width: 215px;
+    }
+    .logo span {
+        font-size: 3.3rem;
+    }
+    .logo-section > span {
+        margin-top: 8px;
+        font-size: 40px;
+    }
+    .nav-links a {
+        line-height: 6.5rem;
+        font-size: 2rem;
+    }
+    .social-icons {
+        margin-bottom: 82px;
+    }
+    .social-icons li {
+        width: 76px;
+        font-size: 2.3rem;
+    }
+}
+
+/* Media Section For Medium Screens */
+
+@media screen and (max-width: 768px) {
+    #section-contact .fake-big-2 {
+        font-size: 11rem;
+        left: 200px;
+        top: 436rem;
+    }
+    .text-zone::before {
+        top: 205px;
+    }
+    .text-zone h1 {
+        font-size: 74px;
+        letter-spacing: -7px;
+        margin-top: -108px;
+    }
+    .text-zone h1::before {
+        top: 319px;
+    }
+    .text-zone img {
+        width: 66px;
+        height: 79px;
+    }
+    .text-zone h1::after {
+        bottom: 375px;
+    }
+    #sound::before {
+        top: 165px;
+    }
+    .text-zone .fake-big-2 {
+        font-size: 35rem;
+        font-weight: 600;
+        left: 336px;
+        bottom: 274px;
+    }
+    .text-zone .gray-text {
+        top: 60px;
+    }
+    .contact-button {
+        top: 117px;
+    }
+    #header .blast-root {
+        font-size: 70px;
+    }
+    .text-zone-2 p {
+        font-size: 21px;
+    }
+    .text-zone-2 p::before {
+        top: 328px;
+    }
+    .hireLink {
+        font-size: 1.5rem;
+    }
+    .text-zone-2 .contact-button {
+        top: 30px;
+        left: 401px;
+    }
+    #magic-wall {
+        margin-left: 44px;
+        width: 85%;
+        font-size: 16px;
+        text-align: center;
+    }
+    .fake-magicwall ul li {
+        width: 235px;
+        height: 227px;
+    }
+    #box {
+        margin: 2rem 1rem;
+    }
+    #box::before {
+        left: 142px;
+    }
+    #section-about {
+        margin-top: 228px;
+    }
+    #header::before {
+        top: 222px;
+    }
+    .text-zone3 p {
+        line-height: 1.7rem;
+        font-size: 1.09rem;
+    }
+    .text-zone3 #header h2::after {
+        bottom: 895px;
+    }
+    .skills-charts{
+        padding-top: 3rem;
+    }
+    .section-blog .fake-big-2 {
+        top: -228px;
+    }
+    .post-date {
+        font-size: 16px;
+    }
+    .blog-post-title h5 a {
+        font-size: 2rem;
+    }
+    .blog-post-content{
+        font-size: 20px;
+    }
+    .blog-post-content {
+        font-size: 17px;
+    }
+    .contact-in {
+        margin: 146px auto;
+    }
+    .contact-form #header::before{
+        left: 87px;
+        top: 7172px;
+    }
+    .contact-form #header::after {
+        left: 699px;
+        bottom: -7867px;
+    }
+    .contact-form #header h2::before {
+        top: 7057px;
+    }
+    .contact-form #header h2::after {
+        bottom: -7927px;
+    }
+    #contact-paragraph {
+        font-size: 22px;
+    }
+    .contact-map {
+        margin-top: 122px;
+        height: 563px;
+    }
+    .input-submit input {
+        max-width: 303px;
+        height: 67px;
+        top: 38px;
+    }
+    .contact-map::before {
+        bottom: -8103px;
+    }
+    .contact-map::after {
+        visibility: hidden;
+    }
+    .contact-form p::before {
+        bottom: -6235px;
+    }
+    .contact-form p::after {
+        bottom: -6366px;
+        left: 506px;
+    }
+    .contact-in .contact-form #header h2 {
+        margin-bottom: -36px;
+        font-size: 80px;
+    }
+    .logo-section {
+        min-height: 49vh;
+    }
+    .logo-section .logo img {
+        width: 210px;
+    }
+    .logo span {
+        font-size: 2.9rem;
+    }
+    .logo-section > span {
+        font-size: 45px;
+    }
+}
+
+/* Media Section For Medium Screens */
+
+@media screen and (max-width: 540px) {
+    .text-zone .fake-big-2 {
+        font-size: 30rem;
+        left: 151px;
+        bottom: 53px;
+    }
+    .text-zone h1 {
+        font-size: 50px;
+        letter-spacing: -4px;
+        margin-top: -108px;
+    }
+    .fake-big-2 {
+        font-size: 10rem;
+        left: 33px;
+        bottom: -78px;
+    }
+    .text-zone-2 .contact-button {
+        top: 30px;
+        left: 154px;
+    }
+    .section-blog .fake-big-2 {
+        top: -292px;
+        left: -89px;
+    }
+    #section-contact .fake-big-2 {
+        font-size: 11rem;
+        left: 44px;
+        top: 441rem;
+    }
+    .contact-form #header::after {
+        left: 331px;
+        bottom: -8256px;
+    }
+    .contact-form p::after {
+        bottom: -6772px;
+        left: 395px;
+    }
+    .text-zone::before {
+        top: 140px;
+    }
+    .text-zone h1::before {
+        top: -5px;
+        visibility: hidden;
+        font-size: 1.6rem;
+    }
+    .text-zone img {
+        width: 48px;
+        height: 61px;
+    }
+    .text-zone h1 {
+        line-height: 50px;
     }
 }
 
