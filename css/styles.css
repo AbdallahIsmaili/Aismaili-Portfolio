@@ -1853,4 +1853,140 @@ header{
     .contact-form #header::after {
         left: 243px;
     }
+    .text-zone::before {
+        top: 158px;
+    }
+    .text-zone h1 {
+        line-height: 40px;
+        margin-top: -230px;
+        font-size: 42px;
+    }
+    .text-zone h1::before {
+        top: 256px;
+        font-size: 1.3rem;
+        visibility: visible;
+    }
+    .text-zone h1::after {
+        bottom: 431px;
+        font-size: 1.3rem;
+    }
+    .contact-button {
+        top: 280px;
+        width: 80%;
+        left: 25px;
+    }
+    .text-zone .gray-text {
+        top: 160px;
+    }
+    .text-zone .gray-text > span {
+        font-size: 15px;
+    }
+    #sound::before {
+        top: 117px;
+    }
+    #header::before {
+        top: 101px;
+    }
+    .text-zone-2 p::before {
+        top: 306px;
+    }
+    .text-zone-2 p {
+        font-size: 20px;
+    }
+    .text-zone-2 p {
+        font-size: 19px;
+        max-width: 95%;
+        text-align: center;
+    }
+    .fake-magicwall ul li {
+        width: 322px;
+        height: 256px;
+    }
+    #box::before {
+        left: 87px;
+        top: 45px;
+        font-size: 1.3rem;
+    }
+    #box .alpha{
+        font-size: 35px;
+        letter-spacing: 1px;
+    }
+    #box::after {
+        font-size: 1.3rem;
+        top: -27px;
+    }
+    #section-about {
+        margin-top: 195px;
+    }
+    #header::before {
+        top: -17px;
+    }
+    .text-zone3 p {
+        text-align: center;
+        margin-left: -32px;
+    }
+    .text-zone3 #header h2::after {
+        bottom: 1060px;
+        left: 117px;
+        font-size: 1.3rem;
+    }
+    .text-zone3 #header h2::before{
+        font-size: 1.3rem;
+    }
+    .section-blog .fake-big-2 {
+        top: -308px;
+        left: -37px;
+        font-size: 16rem;
+    }
+    .post-date {
+        font-size: 15px;
+    }
+    .blog-post-title h5 a {
+        font-size: 1.7rem;
+    }
+    .post-articles {
+        height: 285px;
+        padding: 26px;
+    }
+    .blog-post-content {
+        font-size: 16px;
+    }
+    #section-contact .fake-big-2 {
+        font-size: 9rem;
+        left: 25px;
+        top: 590rem;
+    }
+    .contact-form #header::before {
+        top: 9560px;
+    }
+    .contact-in .contact-form #header h2 {
+        margin-bottom: -138px;
+        font-size: 60px;
+    }
+    .contact-form #header h2::before {
+        top: 9489px;
+    }
+    .contact-form #header h2::after {
+        bottom: -10317px;
+    }
+    .contact-form #header::after {
+        left: 253px;
+        bottom: -10209px;
+    }
+    #contact-paragraph {
+        font-size: 19px;
+    }
+    .contact-form p::before {
+        bottom: -8742px;
+    }
+    .contact-form p::after {
+        bottom: -8825px;
+    }
+    .contact-map::before {
+        bottom: -10366px;
+    }
+    .contact-map::after {
+        visibility: visible;
+        bottom: -10401px;
+    }
 }
