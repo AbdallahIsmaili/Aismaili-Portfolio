@@ -2337,5 +2337,135 @@ header{
         left: 6px;
         bottom: 176px;
     }
-    
+}
+
+/* Smallest Size Screen */
+
+@media screen and (max-width: 280px) {
+    body {
+        overflow-x: hidden !important;
+        max-width: 100% !important;
+    }
+
+    .text-zone h1 {
+        font-size: 29px;
+        letter-spacing: -3px;
+    }
+    .text-zone h1 {
+        font-size: 29px;
+        margin-top: -122px;
+        letter-spacing: -3px;
+    }
+    .text-zone img {
+        width: 26px;
+        height: 33px;
+    }
+    .text-zone h1::before {
+        top: 177px;
+    }
+    .text-zone h1::after {
+        bottom: 290px;
+    }
+    .text-zone .gray-text > span {
+        font-size: 11px;
+    }
+    .contact-button {
+        left: 7px;
+    }
+    #magic-wall {
+        font-size: 12px;
+    }
+    .fake-magicwall ul li {
+        width: 209px;
+        height: 208px;
+    }
+    #box::after {
+        left: 10px;
+    }
+    #box .alpha {
+        font-size: 30px;
+        letter-spacing: 1px;
+    }
+    #header .blast-root {
+        font-size: 37px;
+        letter-spacing: -5px;
+    }
+    .text-zone3 #header h2::after {
+        bottom: 1144px;
+        left: 192px;
+    }
+    .skills-charts {
+        padding-top: 1rem;
+    }
+    .post-date {
+        font-size: 10px;
+    }
+    .blog-post-title h5 a {
+        font-size: 1.1rem;
+    }
+    .blog-post-content {
+        font-size: 14px;
+    }
+    .post-articles {
+        height: 276px;
+    }
+    .contact-in {
+        margin: 75px auto;
+    }
+    #section-contact .fake-big-2 {
+        top: 527rem;
+        left: 5px;
+        font-size: 6.7rem;
+    }
+    .contact-in .contact-form #header h2 {
+        font-size: 41px;
+    }
+    .contact-form #header h2::before {
+        top: 8464px;
+    }
+    .contact-form #header::before {
+        top: 8513px;
+    }
+    .contact-form #header h2::after {
+        bottom: -9437px;
+    }
+    .contact-form #header::after {
+        left: 170px;
+        bottom: -9352px;
+    }
+    .contact-form p::before {
+        bottom: -7965px;
+    }
+    .contact-form p::after {
+        bottom: -8036px;
+        left: 192px;
+    }
+    #contact-paragraph {
+        font-size: 14px;
+    }
+    .contact-map::before {
+        bottom: -9499px;
+    }
+    .contact-map::after {
+        visibility: visible;
+        bottom: -9538px;
+    }
+    .text-zone .fake-big-2 {
+        font-size: 23rem;
+        left: 6px;
+        bottom: 203px;
+    }
+    .logo-section .logo img {
+        width: 63px;
+    }
+    .logo span {
+        font-size: 1rem;
+    }
+    .logo-section > span {
+        font-size: 18px;
+    }
+    .nav-links a {
+        line-height: 2rem;
+        font-size: 0.8rem;
+    }
 }
