@@ -2076,6 +2076,92 @@ header{
     }
 }
 
+@media screen and (max-width: 375px) {
+    #sound::before {
+        top: 72px;
+        left: 1px;
+    }
+    .text-zone::before {
+        top: 106px;
+        left: 45px;
+    }
+    .text-zone h1 {
+        margin-top: -136px;
+        font-size: 39px;
+    }
+    .text-zone h1::before {
+        top: 167px;
+    }
+    .text-zone h1::after {
+        bottom: 300px;
+    }
+    .text-zone .gray-text {
+        top: 73px;
+    }
+    .contact-button {
+        top: 133px;
+    }
+    #header::before {
+        top: 44px;
+    }
+    #header .blast-root {
+        font-size: 58px;
+    }
+    #magic-wall {
+        margin-left: 21px;
+    }
+    .fake-magicwall ul li {
+        width: 285px;
+    }
+    #header::before {
+        top: -5px;
+    }
+    #header .blast-root {
+        font-size: 51px;
+    }
+    .text-zone3 #header h2::after {
+        bottom: 1090px;
+        left: 136px;
+    }
+    #section-contact .fake-big-2 {
+        top: 584rem;
+        left: 33px;
+        font-size: 8rem;
+    }
+    .contact-form #header::before {
+        top: 9500px;
+    }
+    .contact-in .contact-form #header h2 {
+        font-size: 56px;
+    }
+    .contact-form #header h2::before {
+        top: 9397px;
+    }
+    .contact-form p::before {
+        bottom: -8945px;
+    }
+    .contact-form p::after {
+        bottom: -9019px;
+    }
+    .logo-section .logo img {
+        width: 87px;
+    }
+    .logo span {
+        font-size: 1.5rem;
+    }
+    .logo-section > span {
+        font-size: 22px;
+    }
+    .nav-links a {
+        line-height: 3rem;
+        font-size: 1rem;
+    }
+    .social-icons li {
+        width: 53px;
+        font-size: 1.5rem;
+    }
+}
+
 @media screen and (max-width: 360px) {
     .text-zone::before {
         top: 127px;
