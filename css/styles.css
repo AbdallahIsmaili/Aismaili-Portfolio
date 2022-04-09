@@ -1062,7 +1062,6 @@ header{
 /* Make the website responsive */
 
 /* Media Section For Bigger Screens */
-
 @media screen and (min-width: 1140px) {
     header{
         justify-content: flex-end;
@@ -1815,9 +1814,9 @@ header{
     }
 }
 
-/* Media Section For so small Screens */
+/* Media Section For smaller Screens */
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 414px) {
     body {
         overflow-x: hidden !important;
     }
@@ -1995,5 +1994,84 @@ header{
     .nav-links a {
         line-height: 3.5rem;
         font-size: 1.4rem;
+    }
+}
+
+/* Media Section For so small Screens */
+
+@media screen and (max-width: 393px) {
+    .text-zone h1 {
+        margin-top: -147px;
+        font-size: 40px;
+    }
+    .text-zone img {
+        width: 36px;
+        height: 43px;
+    }
+    .text-zone h1::after {
+        bottom: 373px;
+    }
+    .text-zone .gray-text {
+        top: 99px;
+    }
+    .contact-button {
+        top: 209px;
+    }
+    .fake-magicwall ul li {
+        width: 290px;
+    }
+    .blog-post-title h5 a {
+        font-size: 1.5rem;
+    }
+    .post-articles {
+        height: 308px;
+    }
+    #section-contact .fake-big-2 {
+        top: 598rem;
+    }
+    .contact-in .contact-form #header h2 {
+        font-size: 58px;
+    }
+    .contact-form #header::before {
+        top: 9707px;
+    }
+    .contact-form #header h2::before {
+        top: 9644px;
+    }
+    .contact-form p::before {
+        bottom: -8969px;
+    }
+    .contact-form p::after {
+        bottom: -9057px;
+    }
+    .contact-map iframe {
+        margin-top: -55px;
+        width: 100%;
+        height: 80%;
+    }
+    .contact-form #header::after {
+        left: 253px;
+        bottom: -10313px;
+    }
+    .contact-map::before {
+        bottom: -10418px;
+    }
+    .contact-map::after {
+        visibility: visible;
+        bottom: -10462px;
+    }
+    .contact-form #header h2::after {
+        bottom: -10382px;
+    }
+    .logo-section .logo img {
+        width: 104px;
+    }
+    .nav-links a {
+        line-height: 3.3rem;
+        font-size: 1.3rem;
+    }
+    .social-icons li {
+        width: 64px;
+        font-size: 1.6rem;
     }
 }
