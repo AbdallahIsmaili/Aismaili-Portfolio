@@ -61,8 +61,19 @@ body{
     /* background: black; */
     background: black;
     overflow-x: hidden;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
-
+  
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
 header{
     width: 95%;
     height: 10vh;
@@ -119,11 +130,13 @@ header{
     padding: 10px;
     background-color: #181818;
     color: #fff;
+    transition: all 1s ease;
     cursor: pointer;
 }
 
 .btns-container .fas:nth-child(2){
     display: none;
+    transition: all 1s ease;
 }
 
 /* Aside Section Starts Here */
@@ -132,6 +145,7 @@ header{
     width: 100%;
     height: 0;
     position: fixed;
+    transition: all 1s ease;
     top: 0;
     left: 0;
     overflow: hidden;
@@ -142,6 +156,7 @@ header{
 .show-nav{
     height: 100%;
     overflow: visible;
+    transition: all 1s ease;
 }
 
 .aside-wrapper{
