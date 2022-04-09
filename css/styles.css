@@ -2075,3 +2075,120 @@ header{
         font-size: 1.6rem;
     }
 }
+
+@media screen and (max-width: 360px) {
+    .text-zone::before {
+        top: 127px;
+        font-size: 1.1rem;
+    }
+    #sound::before {
+        top: 94px;
+        font-size: 1.1rem;
+    }
+    .text-zone h1 {
+        font-size: 37px;
+    }
+    .text-zone h1::before {
+        top: 214px;
+        font-size: 1.1rem;
+    }
+    .text-zone h1::after {
+        bottom: 334px;
+        font-size: 1.1rem;
+    }
+    #section-work {
+        padding: 3rem 0 3rem 1rem;
+    }
+    #header::before {
+        top: 40px;
+    }
+    #header .blast-root {
+        font-size: 55px;
+        margin-bottom: -59px;
+        letter-spacing: -6px;
+    }
+    .text-zone-2 p {
+        font-size: 18px;
+    }
+    .text-zone-2 p::before {
+        top: 184px;
+    }
+    .text-zone-2 p::after {
+        bottom: 89px;
+    }
+    .text-zone-2 .contact-button {
+        top: 16px;
+    }
+    #magic-wall {
+        margin-left: 22px;
+        font-size: 14px;
+    }
+    .fake-magicwall ul li {
+        width: 267px;
+        height: 267px;
+    }
+    #section-about {
+        margin-top: 160px;
+    }
+    #header::before {
+        top: -6px;
+    }
+    #header .blast-root {
+        font-size: 47px;
+    }
+    .text-zone3 #header h2::after {
+        bottom: 1018px;
+        left: 234px;
+    }
+    #section-contact .fake-big-2 {
+        top: 578rem;
+        left: 21px;
+        font-size: 8rem;
+    }
+    .contact-form #header::before {
+        top: 9383px;
+    }
+    .contact-in .contact-form #header h2 {
+        font-size: 52px;
+    }
+    .contact-form #header::after {
+        left: 253px;
+        bottom: -10104px;
+    }
+    .contact-form p::before {
+        bottom: -8753px;
+    }
+    .contact-form p::after {
+        bottom: -8829px;
+        left: 192px;
+    }
+    .contact-form #header h2::before {
+        top: 9323px;
+    }
+    .contact-form #header h2::after {
+        bottom: -10170px;
+    }
+    .contact-map::before {
+        bottom: -10204px;
+    }
+    .contact-map::after {
+        visibility: visible;
+        bottom: -10247px;
+    }
+    .logo-section .logo img {
+        width: 86px;
+    }
+    .logo-section > span {
+        font-size: 28px;
+    }
+    .nav-links a {
+        line-height: 3rem;
+        font-size: 1rem;
+    }
+    .text-zone .fake-big-2 {
+        font-size: 30rem;
+        left: 6px;
+        bottom: 176px;
+    }
+    
+}
