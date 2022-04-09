@@ -1818,5 +1818,39 @@ header{
 /* Media Section For so small Screens */
 
 @media screen and (max-width: 412px) {
-    
+    body {
+        overflow-x: hidden !important;
+    }
+    html {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+    .text-zone .fake-big-2 {
+        font-size: 30rem;
+        left: 15px;
+        bottom: 306px;
+    }
+    .text-zone-2 .contact-button {
+        left: 14px;
+    }
+    .fake-big-2 {
+        font-size: 10rem;
+        left: -44px;
+        bottom: -78px;
+    }
+    .section-blog .fake-big-2 {
+        top: -292px;
+        left: -196px;
+    }
+    #section-contact .fake-big-2 {
+        font-size: 11rem;
+        left: -83px;
+        top: 533rem;
+    }
+    .contact-form p::after {
+        left: 309px;
+    }
+    .contact-form #header::after {
+        left: 243px;
+    }
 }
