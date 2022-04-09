@@ -1695,18 +1695,21 @@ header{
     }
 }
 
-/* Media Section For Medium Screens */
+/* Media Section For small Screens */
 
 @media screen and (max-width: 540px) {
     .text-zone .fake-big-2 {
-        font-size: 30rem;
-        left: 151px;
-        bottom: 53px;
+        font-size: 29rem;
+        left: 141px;
+        bottom: 183px;
     }
     .text-zone h1 {
         font-size: 50px;
         letter-spacing: -4px;
         margin-top: -108px;
+    }
+    .text-zone-2 p {
+        font-size: 18px;
     }
     .fake-big-2 {
         font-size: 10rem;
@@ -1749,6 +1752,71 @@ header{
     .text-zone h1 {
         line-height: 50px;
     }
+    #header .blast-root {
+        font-size: 60px;
+    }
+    .text-zone3 #header h2::after {
+        bottom: 977px;
+    }
+    .post-date {
+        font-size: 14px;
+    }
+    .blog-post-title h5 a {
+        font-size: 1.5rem;
+    }
+    .blog-post-content {
+        font-size: 15px;
+    }
+    #section-contact .fake-big-2 {
+        top: 433rem;
+    }
+    .contact-form #header::before {
+        top: 7115px;
+    }
+    h2 {
+        font-size: 60px;
+    }
+    .contact-form #header::after {
+        bottom: -8039px;
+    }
+    #contact-paragraph {
+        font-size: 16px;
+    }
+    .contact-form p::after {
+        bottom: -6592px;
+    }
+    .contact-form p::before {
+        bottom: -6482px;
+    }
+    .input-submit input {
+        max-width: 253px;
+        height: 55px;
+        top: 21px;
+    }
+    .contact-form #header h2::after {
+        bottom: -7968px;
+    }
+    .alpha {
+        font-size: 40px;
+        margin: -2px;
+    }
+    .logo-section .logo img {
+        width: 131px;
+    }
+    .logo span {
+        font-size: 2rem;
+    }
+    .logo-section > span {
+        font-size: 30px;
+    }
+    .nav-links a {
+        line-height: 2.5rem;
+        font-size: 1.2rem;
+    }
 }
 
+/* Media Section For so small Screens */
 
+@media screen and (max-width: 412px) {
+    
+}
