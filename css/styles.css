@@ -1323,6 +1323,17 @@ header{
         bottom: -4230px;
         left:165px;
     }
+
+    #thanksTo{
+        position: relative;
+        top:200px;
+    }
+    #thanksTo .thanks_to_you{
+        font-size: 12px;
+    }
+    #thanksTo .thanks_to_you a{
+        font-size: 14px;
+    }
 }
 
 /* Media Section For Big Screens */
@@ -2071,6 +2082,17 @@ header{
         line-height: 3.5rem;
         font-size: 1.4rem;
     }
+    #thanksTo{
+        max-width:90%;
+        margin:100px auto;
+    }
+    #thanksTo .thanks_to_you{
+        font-size: 8px;
+        line-height: 11px;
+    }
+    #thanksTo .thanks_to_you a {
+        font-size: 9px;
+    }
 }
 
 /* Media Section For so small Screens */
@@ -2483,4 +2505,18 @@ header{
         line-height: 2rem;
         font-size: 0.8rem;
     }
+}
+
+#thanksTo{
+    margin-top: -270px;
+}
+#thanksTo p{
+    text-align: center;
+    font-size: 9px;
+    line-height: 5px;
+    font-family: "Poppins", sans-serif;
+}
+#thanksTo p a{
+    color:yellow;
+    font-size: 11px;
 }
